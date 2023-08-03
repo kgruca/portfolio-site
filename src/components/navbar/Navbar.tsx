@@ -36,7 +36,7 @@ const links = [
 
 const Navbar = () => (
   <div>
-    <Link href="/">KG</Link>
+    <Link href="/">g&m</Link>
     <div>
       {links.map((link) => (
         <Link key={link.id} href={link.url}>
