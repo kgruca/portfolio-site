@@ -5,10 +5,12 @@ import Brain from "public/brain1.png";
 const Home = () => (
   <div className={styles.container}>
     <div className={styles.item}>
-      <h1 className={styles.title}>Better design for your digital products.</h1>
+      <h1 className={styles.title}>
+        Engineering at the crossroads of logic and art.
+      </h1>
       <p className={styles.desc}>
-        Turning your Ideas into Reality. We bring together the teams from the
-        global tech industry.
+        Turning your vision into programmatic reality. We design the code for
+        your success.
       </p>
       <div className={styles.buttonContainer}>
         <button className={styles.button}>See Our Works</button>
