@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import CodeArt from "public/code-art.png";
 import Process from "public/process.png";
+import Button from "@/components/button/Button";
 
 const About = () => (
   <div className={styles.container}>
@@ -30,6 +31,7 @@ const About = () => (
           donec ultrices. A scelerisque purus semper eget duis. Sodales ut etiam
           sit amet nisl. Nulla facilisi etiam dignissim diam quis enim lobortis
           scelerisque fermentum.
+          <br />
           <br />
           Ac ut consequat semper viverra nam libero justo. Parturient montes
           nascetur ridiculus mus mauris vitae ultricies leo. Turpis egestas sed
@@ -59,7 +61,10 @@ const About = () => (
           ut. Ac turpis egestas integer eget aliquet nibh praesent. Tortor
           consequat id porta nibh venenatis cras sed felis. Cursus eget nunc
           scelerisque viverra.
+          <br />
+          <br />
         </p>
+        <Button url="/contact" text="Contact" />
       </div>
     </div>
   </div>

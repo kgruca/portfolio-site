@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Brain from "public/brain1.png";
+import Button from "@/components/button/Button";
 
 const Home = () => (
   <div className={styles.container}>
@@ -13,7 +14,7 @@ const Home = () => (
         your success.
       </p>
       <div className={styles.buttonContainer}>
-        <button className={styles.button}>See Our Works</button>
+        <Button url="/portfolio" text="See Our Works" />
       </div>
     </div>
     <div className={styles.item}>
