@@ -2,9 +2,13 @@
 }
 
 .imgContainer {
+  width: 50%;
+  height: 400px;
+  position: relative;
 }
 
 .img {
+  object-fit: ;
 }
 
 .imgText {
