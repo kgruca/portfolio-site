@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
+import Colors from "public/colors.png";
 import CodeArt from "public/code-art.png";
 import Process from "public/process.png";
 import Button from "@/components/button/Button";
@@ -8,18 +9,18 @@ import Button from "@/components/button/Button";
 const About = () => (
   <div className={styles.container}>
     <div className={styles.imgContainer}>
-      <Image src={CodeArt} fill alt="" className={styles.img} />
-    </div>
-    <div className={styles.imgText}>
-      <h1 className={styles.imgTitle}>Digital Storytellers</h1>
-      <h2 className={styles.imgDesc}>
-        Handcrafting award-winning digital experiences
-      </h2>
+      <Image src={Colors} fill alt="colors" className={styles.img} />
+      <div className={styles.imgText}>
+        <h1 className={styles.imgTitle}>Digital Storytellers</h1>
+        <h2 className={styles.imgDesc}>
+          Handcrafting award-winning digital experiences
+        </h2>
+      </div>
     </div>
     <div className={styles.aboutContainer}>
-      <div className={styles.secondImg}>
+      {/* <div className={styles.secondImg}>
         <Image src={Process} alt="process" className={styles.img} />
-      </div>
+      </div> */}
       <div className={styles.item}>
         <h1 className={styles.title}>Who Are We?</h1>
         <p className={styles.desc}>

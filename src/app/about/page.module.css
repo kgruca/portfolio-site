@@ -2,22 +2,27 @@
 }
 
 .imgContainer {
-  width: 50%;
-  height: 400px;
+  width: 100%;
+  height: 300px;
   position: relative;
 }
 
 .img {
-  object-fit: ;
+  object-fit: cover;
 }
 
 .imgText {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
 .imgTitle {
+  color: #b5e48c;
 }
 
 .imgDesc {
+  color: #d9ed92;
 }
 
 .aboutContainer {
