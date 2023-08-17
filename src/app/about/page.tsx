@@ -55,13 +55,14 @@ const About = () => (
           sit amet nisl. Nulla facilisi etiam dignissim diam quis enim lobortis
           scelerisque fermentum.
           <br />
-          Ac ut consequat semper viverra nam libero justo. Parturient montes
-          nascetur ridiculus mus mauris vitae ultricies leo. Turpis egestas sed
-          tempus urna et pharetra pharetra. Risus viverra adipiscing at in
-          tellus integer feugiat scelerisque varius. Nec dui nunc mattis enim
-          ut. Ac turpis egestas integer eget aliquet nibh praesent. Tortor
-          consequat id porta nibh venenatis cras sed felis. Cursus eget nunc
-          scelerisque viverra.
+          <br />
+          - Creative Illustrations
+          <br />
+          <br />
+          - Dynamic Websites
+          <br />
+          <br />
+          - Mobile Apps
           <br />
           <br />
         </p>

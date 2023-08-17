@@ -26,16 +26,23 @@
 }
 
 .aboutContainer {
-}
-
-.secondImg {
+  display: flex;
+  gap: 100px;
 }
 
 .item {
+  flex: 1;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .title {
 }
 
 .desc {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
 }
