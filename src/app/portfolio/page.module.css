@@ -1,5 +1,8 @@
 .mainTitle {
   font-size: 100px;
+  background: linear-gradient(to bottom, #ff4b3c, #12d11c, #1f84db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .container {
