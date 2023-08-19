@@ -3,6 +3,7 @@
   background: linear-gradient(to bottom, #ff4b3c, #12d11c, #1f84db);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: -80px;
 }
 
 .container {
@@ -38,10 +39,30 @@
   background-image: url("/apps.png");
 }
 
-.title {
+.item:hover .titleOne,
+.item:hover .titleTwo,
+.item:hover .titleThree {
+  color: #ff6700;
+}
+
+.titleOne,
+.titleTwo,
+.titleThree {
   position: absolute;
   right: 10px;
   bottom: 10px;
   font-size: 40px;
   font-weight: bold;
+}
+
+.titleOne {
+  color: #34a0a4;
+}
+
+.titleTwo {
+  color: #4895ef;
+}
+
+.titleThree {
+  color: #f72585;
 }
