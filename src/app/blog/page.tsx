@@ -5,8 +5,38 @@ import Link from "next/link";
 import fatKitty from "/public/fatKitty.png";
 
 const Blog = () => (
-  <div className={styles.container}>
-    <Link href="/testID" className={styles.container}>
+  <div className={styles.mainContainer}>
+    <Link href="/blog/testID" className={styles.container}>
+      <div className={styles.imgContainer}>
+        <Image
+          className={styles.img}
+          src={fatKitty}
+          alt=""
+          height={250}
+          width={400}
+        />
+      </div>
+      <div className={styles.content}>
+        <h1 className={styles.title}>Test</h1>
+        <p className={styles.desc}>Description</p>
+      </div>
+    </Link>
+    <Link href="/blog/testID" className={styles.container}>
+      <div className={styles.imgContainer}>
+        <Image
+          className={styles.img}
+          src={fatKitty}
+          alt=""
+          height={250}
+          width={400}
+        />
+      </div>
+      <div className={styles.content}>
+        <h1 className={styles.title}>Test</h1>
+        <p className={styles.desc}>Description</p>
+      </div>
+    </Link>
+    <Link href="/blog/testID" className={styles.container}>
       <div className={styles.imgContainer}>
         <Image
           className={styles.img}
